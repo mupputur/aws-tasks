@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "d8147a3d-8b2e-4eed-bbd8-8ee7d9e1b747",
+		"name": "aws lambda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sourceText\": \"The bone of contention right now is how to make plenty money.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://7gc24dy2jb.execute-api.us-east-1.amazonaws.com/SampleDeployment/sampleresource",
+					"protocol": "https",
+					"host": [
+						"7gc24dy2jb",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"SampleDeployment",
+						"sampleresource"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
